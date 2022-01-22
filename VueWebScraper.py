@@ -68,4 +68,3 @@ def lambda_handler(*args, **kwargs):
         'statusCode': 201,
         'body': json.dumps('Failed to find 2 bedroom apartment available.')
     }
-
